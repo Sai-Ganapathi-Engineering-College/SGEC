@@ -358,10 +358,32 @@ img{
     }
 }
 @media (max-width:300px){
-    .down{
-        height: 760px;
+    .going-1{
+        padding: 0px;
     }
+    .going-1 img{
+        margin-top: 0px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .jntugv{
+        width: 100px;
+    }
+    .jntugv-1{
+        margin-left: 200px;
+        width: 80px;
+    }
+   
+    .down{
+        font-size: 12px;
+        height: 690px;
+    }
+   .down-1{
+    margin-top: -10px;
+   }
     .copy{
         height: 25px;
+        font-size: 9px;
     }
 }
