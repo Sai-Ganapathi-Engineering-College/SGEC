@@ -24,7 +24,7 @@
     position: sticky;
     margin-top: 10px;
     background-attachment: fixed;
-    height: 500px;
+    height: 800px;
 }
 @media (max-width:614px) {
    .total{
@@ -203,6 +203,7 @@ img{
     .jntugv-1{
         margin-left: 200px;
     }
+    
 }
 *{
     box-sizing: border-box;
@@ -306,6 +307,10 @@ img{
     }
 }
 @media(max-width:400px){
+    .total{
+
+        height: 800px;
+    }
     .div{
         height: 5px;
     }
@@ -337,6 +342,9 @@ img{
     }
 }
 @media (max-width:300px) {
+    .total{
+        height: 900px;
+    }
     .down{
         height: 600px;
     }
@@ -344,8 +352,12 @@ img{
         height: 25px;
         font-size: 8px;
     }
+
 }
 @media (max-width:360px) {
+    .total{
+        height: 800px;
+    }
     .down{
         height: 580px;
         padding: 10px;

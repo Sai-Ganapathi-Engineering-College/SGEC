@@ -835,7 +835,7 @@ to{
 
 .branches img{
     height: 300px;
-    width: 350px;
+    width: 370px;
     transition: 1s;
 }
 
@@ -852,7 +852,7 @@ to{
 
 .branches img:hover{
     height: 350px;
-    width: 380px;
+    width: 400px;
     transition: 3s;
 }
 @media (max-width:1000px) {
