@@ -152,17 +152,17 @@
         
                 <div class="going-1">
                     <img src="ances.jpeg" >
-                    <p style="color: red;text-decoration: underline;">@Association Day</p>
+                    <p style="color: red;text-decoration: underline; font-weight: bold;">@Association Day</p>
                     <p style="color: black;"> CSE students decide to celebrate branch fest on March 20 in this occation of branch fest conducting cse releted events.</p>
                 </div>
         <div class="going-1">
         <img src="farewell-hall.jpeg">
-        <p style="color: red;text-decoration: underline;">@Fairwell party</p>
-        <p style="color: black;">Sai Ganapathi 3rd year students had planed to give farewell party for final years on March 30 outside of the college</p>
+        <p style="color: red;text-decoration: underline;font-weight: bold;" >@Fairwell party</p>
+        <p style="color: black;">Sai Ganapathi 3rd year students had planed to give farewell party for final years on March 30</p>
     </div>
-    <div class="going-1 sized">
+    <div class="going-1">
         <img src="orhanage.jpeg">
-        <p style='color: red; text-decoration: underline;'>@Helping to Orphnages</p>
+        <p style='color: red; text-decoration: underline;font-weight: bold;'>@Helping to Orphnages</p>
         <p style="color: black;">Sai Ganapathi students taking step to help orphnages and donating required things.</p>
     </div>
         </div>
@@ -170,17 +170,17 @@
     <div class="float">
     <div class="going-1">
         <img src="internship.jpg" >
-        <p style='color: red; text-decoration: underline;'>@Internship</p>
+        <p style='color: red; text-decoration: underline;font-weight: bold;'>@Internship</p>
         <p style="color: black;">Final year students are doing internship to build skills more strong.</p>
     </div>
     <div class="going-1">
         <img src="placement.jpg" >
-        <p style='color: red; text-decoration: underline;'>@Placements</p>
-        <p style="color: black;">For final years campus drive was going on visiting various companies.</p>
+        <p style='color: red; text-decoration: underline;font-weight: bold;'>@Placements</p>
+        <p style="color: black;">For final years placement selection was going on visiting various companies.</p>
     </div>
-    <div class="going-1 sized">
+    <div class="going-1">
         <img src="water day rally.jpeg" >
-        <p style='color: red; text-decoration: underline;'>@Rally on water day</p>
+        <p style='color: red; text-decoration: underline;font-weight: bold;'>@Rally on water day</p>
         <p style="color: black;">Conducting rally on march 22 world water day to with slogan save water save life in summer.</p>
     </div>
     </div>
@@ -216,7 +216,7 @@
            </div>
 </div>
 
- <p class="margin"><a href="https://www.sgec.edu.in/frontend/placements#2" style="color: rgb(228, 152, 152);"> and many more...</a></p>
+ <p class="margin"><a href="https://www.sgec.edu.in/frontend/placements#2" style="color: rgb(222, 126, 126);"> and many more...</a></p>
     </div>
 </div>
     </div>
@@ -249,7 +249,7 @@ Visakhapatnam
           <p> <a href="notification.html" style="color: white;">Notifications</a></p>
         </div> 
         <div class="copy">
-            Copyright &copy 2024 All rights reserved by <span style="text-decoration: underline;">Sai Ganapathi Engineering</span>
+            Copyright &copy<span id="year"></span> 2024 All rights reserved by <span style="text-decoration: underline;"> Sai Ganapathi Engineering</span>
         </div>
     </div>
 </body>
@@ -306,6 +306,7 @@ function showslide(n){
     }
     slide[slideindex-1].style.display='block';
     dot[slideindex-1].className+='active';
+    document.getElementById('year').textContent=new Date().getFullYear();
 }    
 </script>
 </html>
