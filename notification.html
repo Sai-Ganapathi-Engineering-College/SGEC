@@ -93,8 +93,11 @@
                   <p> <a href="notification.html" style="color: white;">Notifications</a></p>
                 </div> 
                 <div class="copy">
-                    Copyright &copy 2024 All rights reserved by <span style="text-decoration: underline;">Sai Ganapathi Engineering</span>
+                    Copyright &copy; <span id="year"></span> All rights reserved by <span style="text-decoration: underline;">Sai Ganapathi Engineering</span>
                 </div>
             </div>
+            <script>
+                document.getElementById('year').textContent=new Date().getFullYear();
+            </script>
 </body>
 </html>
